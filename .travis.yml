@@ -3,6 +3,7 @@ python:
   - "3.8"
 install:
   - pip install requests
+  - pip install pytest-mock
 # command to run tests
 script:
   - pytest -v
